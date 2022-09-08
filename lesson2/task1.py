@@ -14,13 +14,11 @@ def get_minimal_value_coins(local_coins: list):
 			count_heads+=1
 		else:
 			count_tails+=1	
-	if count_heads == count_tails:
-		return 0
 	if count_heads < count_tails:
 		return count_heads
 	return count_tails
 
 if __name__ == '__main__':
 	#
-	coins = [1, 0, 1, 1, 0, 0]
+	coins = [1, 0, 1, 1, 0, 0, 1]
 	print(get_minimal_value_coins(coins))
