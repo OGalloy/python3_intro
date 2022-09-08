@@ -20,7 +20,7 @@ def get_max_value(local_list:list):
 
     max_value = 0
 
-    summary = 0 #колличество урожая с трёх кустов
+    summary = 0 #количество урожая с трёх кустов
     for i in range(len(local_list)):
         if i == len(local_list)-1: #Условие для последнего элемента списка.
             summary = local_list[i-1] + local_list[i] + local_list[0]
