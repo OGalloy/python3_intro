@@ -20,5 +20,5 @@ def get_position(local_list: list, height: int):
 if __name__ == '__main__':
 	#
 	student_growth = [165, 163, 160, 160, 157, 157, 155, 154]
-	print(get_position(student_growth, 170))
+	print(get_position(student_growth, 170
 
